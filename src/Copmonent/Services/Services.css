@@ -1,0 +1,94 @@
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+.container{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.service-box1,
+.service-box2,
+.service-box3,
+.service-box4,
+.service-box5,
+.service-box6 {
+  border: 3px solid #4b4949;
+  border-radius: 20px;
+  padding: 20px;
+  width: 320px;
+  height: 138px;
+  text-align: left;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.service-box1:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(280.87deg, #1428a0 50%, #5b14d0 74.7%, #a100ff 99.4%)
+      border-box;
+  cursor: pointer;
+}
+
+.service-box2:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(180deg, #5f259f 0%, #13457d 50%, #3d54ce 100%) border-box;
+  cursor: pointer;
+}
+
+.service-box3:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(180deg, #651ab8 0%, #186dee 50%, #3d54ce 100%) border-box;
+  cursor: pointer;
+}
+
+.service-box4:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(180deg, #5f259f 0%, #3d54ce 50%, #0065d3 100%) border-box;
+  cursor: pointer;
+}
+
+.service-box5:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(180deg, #000048 0%, #3d54ce 12.5%, #501f86 25%) border-box;
+  cursor: pointer;
+}
+
+.service-box6:hover {
+  border: 3px solid #0000;
+  border-radius: 20px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(180deg, #5f259f 0%, #1428a0 50%, #0065d3 100%) border-box;
+  cursor: pointer;
+}
+
+.service-box h3 {
+  margin: 0;
+  padding: 0; 
+}
+
+.service-box p {
+ 
+  margin: 0; 
+  padding: 0; 
+}
+   
+@media (max-width: 768px) {
+  .service-box {
+    width: 100%;
+  }
+}
